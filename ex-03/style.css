@@ -1,5 +1,8 @@
 .arena {
-  /* 🦊 Active Flexbox sur l'arena. */
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 15px;
+  /* 🦊 Ac tive Flexbox sur l'arena. */
   /* Affiche les éléments en colonne inversée. */
   /* Ajoute un espace régulier entre les items si besoin. */
 }

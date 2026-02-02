@@ -1,4 +1,6 @@
 .arena {
+  display: flex;
+  justify-content: space-between;
   /* 🦊 Active flexbox sur l'arena. */
   /* Ajoute un espace régulier entre les items. */
 }
@@ -8,10 +10,12 @@
 }
 
 .item--two {
+  order: -1;
   /* 🦊 Donne un ordre pour placer 2 en première position. */
 }
 
 .item--three {
+  order: -1;
   /* 🦊 Donne un ordre pour placer 3 en deuxième position. */
 }
 
