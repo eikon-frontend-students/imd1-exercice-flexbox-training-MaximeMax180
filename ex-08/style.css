@@ -1,3 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.nav--container {
+  display: flex;
+  gap: 12px;
+}
+
+.row--bottom {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap-reverse;
+}
+
+.item--content {
+  flex-grow: 3;
+}
+
 /* 🦊 Complétez ici les styles pour reproduire le layout montré en image dans la page. */
 /* Il n'y pas de solution unique, utilisez les propriétés Flexbox que vous jugez appropriées. */
 /* N'oubliez pas de tester le rendu en responsive ! */
